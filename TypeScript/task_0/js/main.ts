@@ -21,6 +21,12 @@ interface Student {
 
   const table = document.createElement('table'); // crée un table dans la variable table
 
+  const headerRow = table.insertRow(); // ajoute une rangée qui va servir de header
+  const headerCell1 = headerRow.insertCell(); // crée une cellule dans le header
+  headerCell1.textContent = 'First Name'; // nommage de la première cellule du header
+  const headerCell2 = headerRow.insertCell(); // crée une deuxième cellule dans le header
+  headerCell2.textContent = 'Location'; // nommage de la deuxième cellule du header
+
   studentsList.forEach(student => {
     const row = table.insertRow(); // crée une rangée dans la table
     const cell1 = row.insertCell(); // crée une cellule dans la rangée
