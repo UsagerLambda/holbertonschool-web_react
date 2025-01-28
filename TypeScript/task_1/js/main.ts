@@ -1,7 +1,7 @@
 interface Teacher {
     [key: string]: any; // T1
-    firstName: string;
-    lastName: string;
+    readonly firstName: string;
+    readonly lastName: string;
     fullTimeEmployee: boolean;
     yearsOfExperience: number;
     location: string;
