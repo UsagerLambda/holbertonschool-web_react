@@ -9,13 +9,13 @@ interface Student {
     firstName: 'John',
     lastName: 'Doe',
     age: 20,
-    location: 'New York'
+    location: 'Bordeaux'
   };
   const student2: Student = {
     firstName: 'Jane',
     lastName: 'Smith',
     age: 22,
-    location: 'Los Angeles'
+    location: 'La Rochelle'
   };
   const studentsList: Student[] = [student1, student2];
 
